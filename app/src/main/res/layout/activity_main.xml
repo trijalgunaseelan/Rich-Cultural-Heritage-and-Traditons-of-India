@@ -15,21 +15,9 @@
             android:id="@+id/quizButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"
-            android:layout_margin="16dp" />
+            android:layout_margin="16dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/quizlogo" />
 
-        <ImageButton
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"
-            android:layout_margin="16dp" />
-
-        <ImageButton
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"
-            android:layout_margin="16dp" />
     </LinearLayout>
 </RelativeLayout>

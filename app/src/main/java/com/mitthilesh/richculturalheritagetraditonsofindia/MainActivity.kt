@@ -14,7 +14,5 @@ class MainActivity : AppCompatActivity() {
         quizButton.setOnClickListener {
             startActivity(Intent(this, QuizActivity::class.java))
         }
-        val button2: ImageButton = findViewById(R.id.button2)
-        val button3: ImageButton = findViewById(R.id.button3)
         }
     }
